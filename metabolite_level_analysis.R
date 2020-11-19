@@ -1,5 +1,6 @@
 # This script depicts heatmap plotting of the metabolite level fold change 
 
+library("gplots")
 load("~/peak_filtered_cleanup.Rda")
 
 # Fold change calculation
